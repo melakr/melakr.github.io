@@ -1,0 +1,399 @@
+/* Chrome Elements */
+
+body {
+    background-color: #E9EEF1;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+p {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #0063B1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    padding: 100px;
+}
+
+#divHeader {
+    background-color: #0078D7;
+    color: #FFF;
+    height: 48px;
+    width: 100%;
+    vertical-align: middle;
+    position: static;
+}
+
+#divHeader > .middleitem {
+    padding-top: 16px;
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#divLeftNav {
+    background-color: #2A2A2A;
+    color: #FFF;
+    width: 44px;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 48px;
+    left: 0px;
+}
+
+.leftnavicon {
+    background-color: transparent;
+    border: 0px solid #000;
+    color: rgba(255,255,255,0.7);
+    width: 44px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Segoe MDL2 Assets';
+}
+
+.leftnavicon:hover {
+    color: #FFF;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#divContentArea {
+    height: calc(-48px + 100%);
+    width: calc(-44px + 100%);
+    float: right;
+}
+
+#divBreadcrumb {
+    height: 24px;
+    background-color: #D9D9D9;
+    color: #000;
+    padding-left: 20px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+#divBreadcrumb > .middleitem {
+    padding-top: 4px;
+}
+
+#divSecondaryNav {
+    height: 34px;
+    padding-left: 10px;
+    vertical-align: middle;
+    background-color: #E9EEF1;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+#divSecondaryNav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding-top: 6px;
+    -webkit-padding-start: 0px;
+}
+
+#divSecondaryNav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 16px 0px 16px;
+    color: #555;
+}
+
+#divFakeProjectDD {
+    width: 290px;
+    float: left;
+    background-color: #FFF;
+    height: 33px;
+    border: 1px solid #BFBFBF;
+    padding-left: 6px;
+    font-weight: bold;
+}
+
+#divFakeProjectDD > .middleitem {
+    padding-top: 6px;
+}
+
+.navbuttonactive {
+    background-color: transparent;
+    border-width: 0px;
+    border-bottom: 2px solid rgb(0,99,177);
+    padding-bottom: 7px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 500;
+    color: #000;
+}
+
+#divParts {
+    padding: 12px 12px 12px 12px;
+}
+
+.webpart {
+    background-color: #FFF;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.25);
+}
+
+.webparttitle {
+    color: #000;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.datatable {
+    font-size: 13px;
+    color: #000;
+    vertical-align: top;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datatable_findetails td {
+    border-left: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.datatable th {
+    font-size: 12px;
+    color: rgba(0,0,0,0.7);
+    font-weight: normal;
+    vertical-align: bottom;
+    text-align: left;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding: 8px;
+}
+
+.datatable td {
+    vertical-align: top;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 8px;
+}
+
+.tdright {
+    text-align: right !important;
+}
+
+.tdcenter {
+    text-align: center !important;
+}
+
+.trgroup {
+    /*background-color: rgba(0,0,0,0.1)*/
+    font-weight: 500;
+}
+
+.trsubrows {
+    background-color: rgba(0,0,0,0.05);
+    color: rgba(0,0,0,0.7);
+}
+
+.tdtotal {
+    font-weight: 500;
+}
+
+.tdhoveractive {
+    background-color: rgba(0,120,215,0.1);
+}
+
+.tdSummaryActive {
+    background-color: rgba(0,120,215,0.25);
+}
+
+th.tdSummaryActive {
+    border-bottom: 2px solid rgb(0,99,177);
+}
+
+.tdSummaryActiveArrow {
+    background-image: url('SummaryActiveArrow.png');
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.tdwhite {
+    background-color: #FFF;
+    border-right: 1px solid #FFF !important;
+}
+
+.tdlightestgrey {
+    background-color: rgba(0,0,0,0.025);
+}
+
+.tdborderleftstrong {
+    border-left: 2px solid rgba(0,0,0,0.3) !important;
+}
+
+.tdbordernobottom {
+    border-bottom-width: 0px !important;
+}
+
+.tdbordernoleft {
+    border-left-width: 0px !important;
+}
+
+.tdbordernoright {
+    border-right-width: 0px !important;
+}
+
+.tdindentL_1 {
+    padding-left: 25px !important;
+}
+
+.tdindentL_2 {
+    padding-left: 50px !important;
+}
+
+.pivot {
+    background-color: transparent;
+    border-width: 0px;
+    padding-bottom: 4px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+.pivotactive {
+    border-bottom: 2px solid rgb(0,99,177);
+    font-weight: 500;
+}
+
+#divCommandBar {
+    height: 40px;
+    background-color: rgb(244,244,244);
+}
+
+#divCommandBar button {
+    background-color: transparent;
+    font-size: 14px;
+    height: 40px;
+    min-width: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 0px none;
+}
+
+#divCommandBar button:hover {
+    background-color: rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.dataitembold {
+    font-weight: 500;
+}
+
+.dataitemsmall {
+    font-size: 12px;
+}
+
+.dataitemsmaller {
+    font-size: 10px;
+}
+
+.dataitemsmallest {
+    font-size: 11px;
+}
+
+.dataitemlight {
+    color: rgba(0,0,0,0.7);
+}
+
+.textdarkred {
+    color: darkred;
+}
+
+.tdactiveweek {
+    background-color: rgba(0,120,215,0.25)
+}
+
+.tdFTE {
+    background-image: url('HeadcountIcon_FTE.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: 11px;
+    padding-left: 32px !important;
+}
+
+.tdCS {
+    background-image: url('HeadcountIcon_CS.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: 11px;
+    padding-left: 32px !important;
+}
+
+.tdUnassigned {
+    background-image: url('HeadcountIcon_Unassigned.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: 11px;
+    padding-left: 32px !important;
+}
+
+.thdarkgrey {
+    background-color: rgba(0,0,0,0.7);
+    color: #FFF;
+}
+
+.thmiddleblue {
+    background-color: rgba(0,120,215,0.1);
+}
+
+.micrographbg {
+    background-color: rgba(0,0,0,0.2);
+    width: 60px;
+    height: 10px;
+    float: left;
+    margin-top: 5px;
+}
+
+.micrograph_G {
+    background-color: green;
+    height: 10px;
+}
+
+.micrograph_R {
+    background-color: red;
+    height: 10px;
+}
+
+.micrograph_K {
+    background-color: #000;
+    height: 10px;
+}
+
+.fctext {
+    width: 50px;
+    text-align: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
